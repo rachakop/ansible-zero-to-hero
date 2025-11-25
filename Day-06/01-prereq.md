@@ -25,6 +25,11 @@ openssl rand -base64 2048 > vault.pass
 ```
 ansible-vault create group_vars/all/pass.yml --vault-password-file vault.pass
 ```
+pass.yml
+ec2_access_key:  AKIARRROVPPNG67QS6HD
+ec2_secret_key:  dsfdssdvdvdzxvav
+
+```
 ansible-vault edit group_vars/all/pass.yml  --vault-password-file vault.pass
 
 

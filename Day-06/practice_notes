@@ -33,3 +33,6 @@ as ansible is idempotent only one ubuntu instance wioll get created
       - { image:"ami-0a9098891d675c629", name: "manage-node-1" }
       - { image:"ami-0e7938ad51d883574", name: "manage-node-2" }
       - { image:"ami-0e7938ad51d883574", name: "manage-node-3" }
+
+ansible-galaxy role init test
+

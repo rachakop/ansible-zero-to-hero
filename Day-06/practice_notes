@@ -36,3 +36,14 @@ as ansible is idempotent only one ubuntu instance wioll get created
 
 ansible-galaxy role init test
 
+ec2_create.yml
+```
+- hosts: localhost
+  connection: local
+  roles:
+    - test
+```
+ansible-lint ec2_create.yml
+
+sudo apt install ansible-lint
+sudo apt install ansible
